@@ -1,0 +1,4 @@
+# Proprietary payloads are extracted locally from the owner's stock dump.
+# They must never be committed to this repository.
+/proprietary/
+/factory/

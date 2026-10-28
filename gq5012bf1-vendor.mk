@@ -141,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.yft.hardware.sensorcali@2.0-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.yft.hardware.sensorcali@2.0-service-lazy \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.yft.hardware.tinylcd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.yft.hardware.tinylcd@1.0-service \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vtservice_aidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_aidl \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/init.pstore_blk.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.pstore_blk.sh \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
@@ -217,7 +216,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/em_hal_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hal_user.rc \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/face-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/face-default.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/fingerprint-example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-example.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpsgo.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
@@ -316,13 +314,9 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.se.omapi.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.se.omapi.prebuilt.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.telephony.cdma.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.prebuilt.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.touchscreen.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.prebuilt.xml \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute-0.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.prebuilt.xml \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.vulkan.level-1.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level-1.prebuilt.xml \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_3.prebuilt.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.software.activities_on_secondary_displays.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.activities_on_secondary_displays.prebuilt.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.software.midi.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.prebuilt.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
@@ -453,7 +447,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaaa_gma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_gma.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaal_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_sec.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_core.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_param_parser-vnd.so \
@@ -519,7 +512,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libicd_decoder.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifcutils_mtk.so \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libimage_io.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimage_io.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libimagebuffer_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimagebuffer_wrapper.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_mtk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_ulit.so \
@@ -581,15 +573,10 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpqtuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqtuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpqxmlflagparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqxmlflagparser.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpqxmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqxmlparser.so \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libprotobuf-cpp-full-21.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-21.7.so \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libprotobuf-cpp-lite-21.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-21.7.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libsilkybrightnesscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsilkybrightnesscore.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libstfaceunlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstfaceunlock.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorage_otp.so \
@@ -597,7 +584,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libsxs_ultrawideview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsxs_ultrawideview.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec.so \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_utils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libtrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrm.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libultrahdr_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libultrahdr_mtk.so \
@@ -607,7 +593,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_comp_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_comp_test.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwfov_mesh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfov_mesh.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwfov_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfov_portrait.so \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwifical.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifical.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwifinvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifinvram.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwifinvramdata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifinvramdata.so \
@@ -791,7 +776,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmmagent.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmml.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmmlpqImpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmmlpqImpl.so \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmnl.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtk_drvb.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam.atmseventmgr.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam.debugwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam.debugwrapper.so \
@@ -1286,11 +1270,8 @@ PRODUCT_PACKAGES += \
     android.hardware.tetheroffload-V1-service.xml \
     android.hardware.usb-aidl-service.mediatek.xml \
     android.hardware.usb.gadget-aidl-service.mediatek.xml \
-    android.hardware.wifi.hostapd.xml \
-    android.hardware.wifi.supplicant.xml \
     arm.mali.platform-mediatek.xml \
     em_hal_service.xml \
-    face-default.xml \
     gnss-mtk.xml \
     lights-mtk-default.xml \
     manifest_allocator.xml \
@@ -1514,7 +1495,6 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libmmagent_so \
     vendor_lib64_libmml_so \
     vendor_lib64_libmmlpqImpl_so \
-    vendor_lib64_libmnl_so \
     vendor_lib64_libmtk_drvb_so \
     vendor_lib64_libmtkcam_atmseventmgr_so \
     vendor_lib64_libmtkcam_debugwrapper_so \

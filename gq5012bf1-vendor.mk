@@ -78,6 +78,17 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/system_ext/lib64/vendor.mediatek.framework.mtksf_ext-V4-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.framework.mtksf_ext-V4-ndk.so \
     vendor/ulefone/gq5012bf1/proprietary/system_ext/lib64/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.log@1.0.so \
     vendor/ulefone/gq5012bf1/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/4545534d-0009-0000-0000000000001002.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/4545534d-0009-0000-0000000000001002.ta \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/4545534d-0009-0000-0000000000001005.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/4545534d-0009-0000-0000000000001005.ta \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/4545534d-0009-0000-0000000000002707.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/4545534d-0009-0000-0000000000002707.ta \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/cfg.ini:$(TARGET_COPY_OUT_VENDOR)/app/t6/cfg.ini \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/edcf9395-3518-9067-614cafae2909775b.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/edcf9395-3518-9067-614cafae2909775b.ta \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/face1d41-2636-11e1-ad9e0002a5d6c51b.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/face1d41-2636-11e1-ad9e0002a5d6c51b.ta \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/app/t6/ffffffff-126c-d6ab-5a1dfa772a732a75.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/ffffffff-126c-d6ab-5a1dfa772a732a75.ta \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/aee_aedv64_v2:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64_v2 \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/aeev_v2:$(TARGET_COPY_OUT_VENDOR)/bin/aeev_v2 \
@@ -125,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/mt6878/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mt6878/camerahalserver \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/tetheroffloadservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/tetheroffloadservice \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.mediatek.hardware.aee@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.aee@1.1-service \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.mediatek.hardware.aee@V1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.aee@V1-service \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.mediatek.hardware.gnss-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.gnss-service \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.mediatek.hardware.gpuserv-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.gpuserv-service \
@@ -138,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.yft.hardware.changenode@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.yft.hardware.changenode@1.0-service \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.yft.hardware.gesturewake@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.yft.hardware.gesturewake@1.0-service \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.yft.hardware.obtainvendor@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.yft.hardware.obtainvendor@1.0-service \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.yft.hardware.sensorcali@2.0-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.yft.hardware.sensorcali@2.0-service-lazy \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vendor.yft.hardware.tinylcd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.yft.hardware.tinylcd@1.0-service \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/hw/vtservice_aidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_aidl \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
@@ -155,6 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/bin/rcs_volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/rcs_volte_stack \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/tee_check_keybox:$(TARGET_COPY_OUT_VENDOR)/bin/tee_check_keybox \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/teed:$(TARGET_COPY_OUT_VENDOR)/bin/teed \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/thermal_core:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_core \
@@ -162,17 +172,191 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/touch_boost:$(TARGET_COPY_OUT_VENDOR)/bin/touch_boost \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/uart_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/uart_launcher \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/wifi_dump:$(TARGET_COPY_OUT_VENDOR)/bin/wifi_dump \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/wifitest:$(TARGET_COPY_OUT_VENDOR)/bin/wifitest \
     vendor/ulefone/gq5012bf1/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/AudioDump_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioDump_dynamic.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/MBrain_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MBrain_dynamic.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/VideoLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/VideoLog_dynamic.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/apdb/APDB_MT6878___W2509:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6878___W2509 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/apdb/APDB_MT6878___W2509_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6878___W2509_ENUM \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_framework_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_framework_configuration.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/AudioParamOptions_mgvi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_mgvi.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/CRSVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/CRSVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVolUI_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/CRSVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/CRSVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/CRSVol_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Codec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Codec_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Codec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Codec_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Playback_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Playback_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamTreeView.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Power_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Power_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Power_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Power_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechAcousticShock_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechAcousticShock_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechAcousticShock_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechAcousticShock_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechNetwork_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechNetwork_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/USBCall_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/USBDevice_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/USBDevice_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBDevice_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Ultrasound_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Ultrasound_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Ultrasound_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Ultrasound_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/UplinkConfiguration_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/UplinkConfiguration_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPDMNR_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPGeneral_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWCommonSetting_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWCommonSetting_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWCommonSetting_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWCommonSetting_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWCompatibilityCode_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWCompatibilityCode_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWCompatibilityCode_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWCompatibilityCode_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWDspAec_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWEngineFeature_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWEngineFeature_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWEngineFeature_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWHwVad_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWHwVad_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWHwVad_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWMicSetting_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWMicSetting_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWVoiceCommand_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWVoiceCommand_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VolumeGainMapUL_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMapUL_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VolumeGainMap_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_disabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled_cg_enabled.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_enable_cg_enable.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/bh3.dla:$(TARGET_COPY_OUT_VENDOR)/etc/bh3.dla \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_a2dp_offload_ums_offload_audio_policy_configuration.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/bluetooth_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_offload_audio_policy_configuration.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/bluetooth_ums_offload_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_ums_offload_audio_policy_configuration.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/camera/eis/morphoEISCalibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eis/morphoEISCalibration.bin \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/camera/eis/morphoEISCalibration_DOOGEE_M24PS.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eis/morphoEISCalibration_DOOGEE_M24PS.bin \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/camera/eis/morphoEISCalibration_all.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eis/morphoEISCalibration_all.bin \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/camera/eis/morpho_eis_cfg.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eis/morpho_eis_cfg.json \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/camera/eis/morpho_zoomeis_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eis/morpho_zoomeis_params.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/command.csv:$(TARGET_COPY_OUT_VENDOR)/etc/command.csv \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/cust_color.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/cust_pq.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_pq.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/displayconfig/display_id_4627039422300187648.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4627039422300187648.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/dvs_config_0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dvs_config_0.bin \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/dvs_config_0_60fps.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dvs_config_0_60fps.bin \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/dvs_config_1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dvs_config_1.bin \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ecc_list_OP09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP09.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ecc_list_OP12.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP12.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ecc_list_OP17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP17.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/fstab.emmc:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.emmc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/fstab.mt6878:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6878 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/genshin.dla:$(TARGET_COPY_OUT_VENDOR)/etc/genshin.dla \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
@@ -188,6 +372,14 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gralloc/cam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/cam.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gralloc/dpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gralloc/dpu_aeu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu_aeu.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/hdr_config_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config_0.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/hdr_config_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/hdr_config_1.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init.insmod.mt6878.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6878.cfg \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/aee_aedv64_v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64_v2.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/android.hardware.bluetooth-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth-service-mediatek.rc \
@@ -195,7 +387,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/android.hardware.boot-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot-service.mtk.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/android.hardware.gatekeeper-service.trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service.trustkernel.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/android.hardware.graphics.allocator-V1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator-V1-service-mediatek.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/android.hardware.graphics.composer@3.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@3.2-service.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc \
@@ -286,7 +477,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/thermal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/thermal-mediatek.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/touch_boost.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/touch_boost.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustkernel.rc \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/vendor.mediatek.hardware.aee@V1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.aee@V1-service.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent-service.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc \
@@ -297,11 +487,794 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/vendor.yft.hardware.changenode@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.yft.hardware.changenode@1.0-service.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/vendor.yft.hardware.gesturewake@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.yft.hardware.gesturewake@1.0-service.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/vendor.yft.hardware.obtainvendor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.yft.hardware.obtainvendor@1.0-service.rc \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/vendor.yft.hardware.sensorcali@2.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.yft.hardware.sensorcali@2.0-service-lazy.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/vendor.yft.hardware.tinylcd@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.yft.hardware.tinylcd@1.0-service.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/vibrator-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-mtk-default.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/202_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/202_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/202_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/202_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/202_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/202_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/202_09.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/202_09.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/202_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/202_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/204_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/204_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/204_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/204_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/204_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/204_08.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/204_16.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/204_16.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/204_20.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/204_20.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/204_69.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/204_69.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/206_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/206_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/206_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/206_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/206_20.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/206_20.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/208_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/208_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/208_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/208_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/208_20.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/208_20.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/208_88.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/208_88.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/214_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/214_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/214_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/214_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/214_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/214_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/214_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/214_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/214_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/214_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/216_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/216_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/216_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/216_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/216_30.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/216_30.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/216_70.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/216_70.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/219_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/219_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/219_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/219_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/220_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/220_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/222_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/222_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/222_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/222_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/222_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/222_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/222_88.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/222_88.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/226_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/226_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/226_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/226_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/226_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/226_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/226_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/226_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/226_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/226_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/228_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/228_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/228_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/228_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/230_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/230_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/230_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/230_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/230_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/230_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/231_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/231_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/231_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/231_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/231_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/231_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/231_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/231_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/232_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/232_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/232_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/232_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/232_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/232_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/232_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/232_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/232_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/232_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_08.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_11.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_11.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_15.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_15.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_20.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_20.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_30.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_30.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_31.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_31.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_32.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_32.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_33.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_33.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_34.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_34.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/234_86.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/234_86.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/235_91.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/235_91.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/235_94.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/235_94.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/238_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/238_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/238_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/238_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/238_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/238_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/238_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/238_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/238_20.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/238_20.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/238_30.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/238_30.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/238_77.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/238_77.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/240_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/240_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/240_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/240_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/240_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/240_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/240_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/240_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/240_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/240_08.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/240_99.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/240_99.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/242_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/242_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/242_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/242_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/242_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/242_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/242_14.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/242_14.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/244_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/244_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/244_12.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/244_12.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/244_13.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/244_13.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/244_21.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/244_21.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/244_91.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/244_91.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/246_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/246_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/248_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/248_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/250_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/250_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/250_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/250_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/250_11.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/250_11.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/250_20.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/250_20.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/250_99.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/250_99.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/259_15.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/259_15.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/260_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/260_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/260_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/260_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/260_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/260_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/260_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/260_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/260_34.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/260_34.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/260_98.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/260_98.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/262_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/262_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/262_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/262_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/262_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/262_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/262_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/262_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/262_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/262_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/262_09.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/262_09.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/262_77.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/262_77.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/262_80.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/262_80.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/268_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/268_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/268_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/268_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/268_89.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/268_89.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/272_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/272_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/276_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/276_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/284_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/284_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/284_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/284_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/286_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/286_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/286_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/286_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/286_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/286_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/293_41.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/293_41.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/294_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/294_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/294_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/294_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/295_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/295_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/297_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/297_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/302_220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/302_220.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/302_221.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/302_221.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/302_370.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/302_370.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/302_490.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/302_490.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/302_610.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/302_610.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/302_630.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/302_630.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/302_640.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/302_640.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/302_660.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/302_660.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/302_690.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/302_690.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/302_720.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/302_720.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_030.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_030.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_070.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_070.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_090.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_090.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_120.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_120.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_150.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_150.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_160.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_160.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_170.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_170.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_200.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_200.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_210.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_210.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_220.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_230.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_230.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_240.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_240.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_250.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_250.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_260.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_260.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_270.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_270.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_280.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_280.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_300.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_300.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_310.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_310.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_380.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_380.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_410.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_410.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_490.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_490.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_530.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_530.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_560.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_560.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_590.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_590.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_640.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_640.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_660.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_660.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_680.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_680.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_800.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_800.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/310_950.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/310_950.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_180.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_180.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_220.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_220.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_221.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_221.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_222.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_222.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_223.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_223.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_224.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_224.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_225.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_225.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_226.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_226.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_227.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_227.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_228.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_228.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_229.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_229.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_270.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_270.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_390.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_390.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_480.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_480.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_490.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_490.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_580.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_580.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_581.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_581.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_582.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_582.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_583.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_583.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_584.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_584.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_585.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_585.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_586.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_586.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_587.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_587.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_588.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_588.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_589.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_589.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/311_870.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/311_870.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/312_530.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/312_530.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/312_670.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/312_670.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/312_770.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/312_770.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/313_100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/313_100.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/313_110.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/313_110.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/313_120.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/313_120.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/313_130.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/313_130.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/313_140.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/313_140.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/330_110.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/330_110.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/334_020.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/334_020.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/334_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/334_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/334_030.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/334_030.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/334_050.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/334_050.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/334_090.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/334_090.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/334_140.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/334_140.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/370_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/370_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_11.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_11.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_12.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_12.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_13.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_13.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_14.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_14.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_15.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_15.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_16.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_16.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_19.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_19.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_20.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_20.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_22.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_22.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_24.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_24.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_27.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_27.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_30.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_30.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_31.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_31.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_34.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_34.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_38.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_38.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_40.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_40.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_43.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_43.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_44.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_44.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_45.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_45.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_46.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_46.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_49.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_49.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_51.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_51.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_53.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_53.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_54.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_54.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_55.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_55.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_56.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_56.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_57.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_57.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_58.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_58.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_59.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_59.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_60.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_60.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_62.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_62.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_64.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_64.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_66.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_66.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_70.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_70.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_71.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_71.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_72.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_72.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_73.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_73.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_74.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_74.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_75.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_75.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_76.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_76.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_77.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_77.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_78.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_78.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_79.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_79.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_80.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_80.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_81.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_81.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_82.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_82.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_84.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_84.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_86.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_86.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_87.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_87.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_88.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_88.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_89.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_89.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_90.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_90.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_92.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_92.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_93.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_93.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_94.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_94.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_95.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_95.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_96.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_96.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_97.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_97.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/404_98.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/404_98.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_030.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_030.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_035.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_035.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_036.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_036.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_037.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_037.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_038.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_038.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_039.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_039.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_044.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_044.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_51.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_51.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_52.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_52.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_53.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_53.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_54.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_54.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_55.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_55.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_56.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_56.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_66.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_66.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_67.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_67.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_70.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_70.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_750.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_750.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_751.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_751.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_752.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_752.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_753.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_753.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_754.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_754.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_755.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_755.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_756.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_756.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_799.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_799.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_818.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_818.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_819.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_819.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_840.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_840.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_845.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_845.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_846.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_846.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_847.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_847.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_848.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_848.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_849.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_849.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_850.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_850.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_851.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_851.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_852.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_852.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_853.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_853.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_854.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_854.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_855.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_855.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_856.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_856.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_857.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_857.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_858.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_858.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_859.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_859.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_860.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_860.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_861.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_861.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_862.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_862.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_863.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_863.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_864.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_864.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_865.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_865.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_866.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_866.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_867.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_867.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_868.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_868.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_869.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_869.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_870.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_870.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_871.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_871.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_872.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_872.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_873.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_873.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_874.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_874.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_876.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_876.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_879.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_879.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_908.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_908.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_909.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_909.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_910.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_910.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_911.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_911.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_927.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_927.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/405_929.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/405_929.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/410_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/410_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/410_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/410_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/413_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/413_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/413_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/413_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/414_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/414_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/414_09.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/414_09.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/418_66.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/418_66.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/419_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/419_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/419_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/419_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/419_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/419_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/420_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/420_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/420_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/420_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/424_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/424_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/424_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/424_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/426_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/426_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/426_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/426_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/427_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/427_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/440_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/440_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/440_20.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/440_20.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/440_51.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/440_51.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/440_54.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/440_54.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/450_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/450_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/450_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/450_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/450_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/450_08.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/452_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/452_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/452_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/452_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_00.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_12.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_12.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_13.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_13.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_14.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_14.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_15.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_15.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_16.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_16.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_17.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_17.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_18.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_18.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_19.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_19.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_20.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_20.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_29.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_29.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/454_31.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/454_31.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/455_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/455_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/455_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/455_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/455_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/455_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/455_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/455_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/455_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/455_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/455_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/455_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/456_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/456_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/456_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/456_08.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/456_11.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/456_11.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/460_00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/460_00.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/460_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/460_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/460_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/460_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/460_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/460_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/460_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/460_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/460_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/460_08.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/460_09.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/460_09.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/460_11.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/460_11.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/460_12.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/460_12.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/460_13.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/460_13.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/466_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/466_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/466_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/466_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/466_89.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/466_89.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/466_92.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/466_92.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/466_93.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/466_93.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/466_97.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/466_97.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/466_99.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/466_99.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/470_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/470_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/470_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/470_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/470_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/470_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/502_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/502_08.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/502_152.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/502_152.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/502_153.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/502_153.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/502_16.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/502_16.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/502_18.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/502_18.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/505_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/505_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/505_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/505_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/505_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/505_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/505_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/505_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/505_11.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/505_11.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/505_39.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/505_39.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/505_71.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/505_71.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/505_72.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/505_72.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/505_90.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/505_90.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/510_09.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/510_09.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/510_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/510_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/510_28.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/510_28.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/515_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/515_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/515_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/515_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/520_00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/520_00.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/520_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/520_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/520_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/520_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/520_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/520_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/525_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/525_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/525_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/525_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/525_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/525_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/525_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/525_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/530_001.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/530_001.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/530_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/530_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/530_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/530_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/530_099.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/530_099.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/530_24.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/530_24.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/602_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/602_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/602_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/602_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/602_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/602_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/621_27.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/621_27.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/621_40.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/621_40.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/639_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/639_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/639_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/639_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/640_11.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/640_11.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/641_33.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/641_33.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/645_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/645_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/653_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/653_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/655_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/655_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/655_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/655_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/655_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/655_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/655_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/655_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/704_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/704_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/704_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/704_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/704_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/704_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/706_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/706_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/706_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/706_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/708_001.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/708_001.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/710_21.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/710_21.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/710_30.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/710_30.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/710_300.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/710_300.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/712_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/712_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/712_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/712_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/714_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/714_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/714_020.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/714_020.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/714_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/714_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/716_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/716_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/716_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/716_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/716_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/716_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/716_17.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/716_17.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/722_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/722_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/722_310.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/722_310.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/722_34.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/722_34.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/724_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/724_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/724_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/724_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/724_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/724_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/724_05.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/724_05.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/724_06.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/724_06.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/724_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/724_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/724_11.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/724_11.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/724_23.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/724_23.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/724_80.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/724_80.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/730_01.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/730_01.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/730_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/730_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/730_03.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/730_03.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/730_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/730_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/730_09.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/730_09.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/730_23.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/730_23.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/732_101.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/732_101.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/732_103.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/732_103.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/732_111.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/732_111.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/732_123.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/732_123.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/732_130.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/732_130.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/734_04.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/734_04.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/740_00.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/740_00.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/744_02.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/744_02.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/748_07.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/748_07.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/apncfg/748_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/md/apncfg/748_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/EntrustRootCertificationAuthorityG2_root.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/EntrustRootCertificationAuthorityG2_root.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/GoDaddyRootCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GoDaddyRootCertificateAuthorityG2.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/IdenTrustCommercialRootCA1.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/IdenTrustCommercialRootCA1.cer \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/LibertyGlobalEnterprise-Root-CA-G1.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/LibertyGlobalEnterprise-Root-CA-G1.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/Root-R3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root-R3.cer \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/Root_CA_1003.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root_CA_1003.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/USERTrustRSACertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/USERTrustRSACertificationAuthority.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G4.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G4.der \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G5.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G5.der \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/ikev2/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/thawte.der \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/AAACertificateServices.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/AAACertificateServices.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/CertumCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumCA.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertGlobalRootG2.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2_root.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2_root.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/StaatDerNederlandenEVRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatDerNederlandenEVRootCA.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/cacerts/tls/certSIGN_ROOT_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/certSIGN_ROOT_CA.crt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/02.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/02.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/04.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/04.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/06.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/06.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/08.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/08.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/12.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/13.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/14.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/16.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/18.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/19.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/20.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/21.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/22.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/22.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/26.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/26.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/28.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/28.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/30.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/30.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/31.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/31.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/32.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/32.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/34.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/34.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/38.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/38.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/40.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/40.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/42.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/42.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/44.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/44.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/46.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/46.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/47.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/47.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/48.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/48.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/50.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/50.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/55.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/55.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/57.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/57.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/59.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/59.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/60.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/60.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/62.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/62.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/66.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/66.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/68.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/68.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/70.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/70.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/72.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/72.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/74.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/74.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/76.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/76.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/78.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/78.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/80.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/80.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/82.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/82.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/83.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/83.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/84.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/84.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/86.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/86.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/88.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/88.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/90.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/90.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/93.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/93.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/94.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/94.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/95.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/95.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/2/97.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/2/97.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/02.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/02.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/08.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/08.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/10.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/11.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/12.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/13.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/30.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/30.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/34.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/34.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/38.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/38.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/40.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/40.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/42.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/42.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/44.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/44.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/46.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/46.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/48.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/48.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/50.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/50.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/52.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/52.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/54.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/54.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/56.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/56.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/58.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/58.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/60.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/60.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/62.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/62.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/63.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/63.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/64.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/64.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/65.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/65.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/66.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/66.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/70.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/70.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/72.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/72.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/74.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/74.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/3/76.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/3/76.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/00.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/00.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/01.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/01.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/02.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/02.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/04.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/04.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/05.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/05.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/10.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/12.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/13.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/14.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/15.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/16.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/18.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/19.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/20.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/21.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/22.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/22.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/24.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/24.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/25.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/25.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/26.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/26.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/27.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/27.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/28.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/28.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/29.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/29.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/34.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/34.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/36.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/36.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/37.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/37.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/38.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/38.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/40.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/40.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/50.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/50.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/52.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/52.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/54.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/54.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/55.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/55.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/56.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/56.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/57.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/57.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/60.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/60.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/66.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/66.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/70.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/70.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/4/72.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/4/72.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/02.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/02.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/05.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/05.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/10.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/14.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/15.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/20.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/25.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/25.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/28.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/28.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/30.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/30.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/37.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/37.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/39.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/39.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/40.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/40.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/41.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/41.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/42.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/42.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/43.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/43.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/44.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/44.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/46.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/46.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/47.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/47.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/48.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/48.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/49.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/49.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/50.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/50.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/52.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/52.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/5/54.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/5/54.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/02.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/02.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/03.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/03.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/04.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/04.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/05.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/05.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/06.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/06.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/07.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/07.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/08.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/08.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/09.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/09.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/10.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/11.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/12.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/13.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/14.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/15.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/16.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/17.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/18.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/19.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/20.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/21.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/22.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/22.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/23.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/23.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/24.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/24.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/25.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/25.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/26.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/26.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/27.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/27.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/28.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/28.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/29.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/29.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/30.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/30.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/31.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/31.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/32.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/32.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/33.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/33.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/34.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/34.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/35.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/35.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/36.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/36.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/37.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/37.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/38.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/38.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/39.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/39.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/40.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/40.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/41.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/41.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/42.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/42.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/43.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/43.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/45.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/45.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/46.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/46.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/47.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/47.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/48.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/48.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/49.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/49.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/50.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/50.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/51.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/51.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/52.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/52.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/53.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/53.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/54.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/54.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/55.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/55.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/57.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/57.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/58.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/58.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/6/59.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/6/59.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/02.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/02.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/04.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/04.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/06.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/06.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/08.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/08.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/10.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/12.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/14.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/16.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/22.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/22.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/24.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/24.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/30.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/30.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/32.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/32.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/34.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/34.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/36.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/36.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/38.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/38.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/40.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/40.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/44.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/44.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/46.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/46.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/48.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/48.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/7/50.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/50.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/9/01.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/9/01.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/md/plmn/TS25/raw_ts25.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/raw_ts25.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/nhw:$(TARGET_COPY_OUT_VENDOR)/etc/nhw \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/night_config_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/night_config_0.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/nn/ot/neuron_detection.mdla3_5:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_detection.mdla3_5 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/nn/ot/neuron_detection.mdla5_0:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_detection.mdla5_0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/nn/ot/neuron_detection.mdla5_1.cache:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_detection.mdla5_1.cache \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/nn/ot/neuron_tracking.mdla3_5:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_tracking.mdla3_5 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/nn/ot/neuron_tracking.mdla5_0:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_tracking.mdla5_0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/nn/ot/neuron_tracking.mdla5_1.cache:$(TARGET_COPY_OUT_VENDOR)/etc/nn/ot/neuron_tracking.mdla5_1.cache \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/panel-csot-nt37705-cmd-cli_pq.xml:$(TARGET_COPY_OUT_VENDOR)/etc/panel-csot-nt37705-cmd-cli_pq.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/panel-nt37705-1056-1068-dphy-cmd_pq.xml:$(TARGET_COPY_OUT_VENDOR)/etc/panel-nt37705-1056-1068-dphy-cmd_pq.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/panel-truly-td4330-cmd_pq.xml:$(TARGET_COPY_OUT_VENDOR)/etc/panel-truly-td4330-cmd_pq.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/android.hardware.keystore.app_attest_key.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.prebuilt.xml \
@@ -322,7 +1295,181 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/permissions/dummy_camera_extensions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/dummy_camera_extensions.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/pixsmart_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/etc/pixsmart_hdr.bin \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/pixsmart_mf_params1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/pixsmart_mf_params1.bin \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/pixsmart_mf_params2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/pixsmart_mf_params2.bin \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/pixsmart_ns.bin:$(TARGET_COPY_OUT_VENDOR)/etc/pixsmart_ns.bin \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/pq_flag.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pq_flag.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/10531352.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/10531352.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/1ae85e5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1ae85e5e.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/1b0f7e5c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1b0f7e5c.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/1df5a75f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1df5a75f.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/1e1eab7c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e1eab7c.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/1e8e7201.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e8e7201.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/1ec40989.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1ec40989.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/1f58a078.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1f58a078.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/219d9499.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/219d9499.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/23f4c490.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/23f4c490.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/252252d2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/252252d2.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/2add47b6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2add47b6.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/2d9dafe4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2d9dafe4.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/302904dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/302904dd.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/304d27c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/304d27c3.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/31188b5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/31188b5e.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/33ee480d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/33ee480d.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/35105088.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/35105088.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/399e7759.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3ad48a91.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/3c860d51.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c860d51.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/3c899c73.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c899c73.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/3c9a4d3b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c9a4d3b.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/3e7271e8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3e7271e8.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/41a3f684.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/41a3f684.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/455f1b52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/455f1b52.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/48a195d8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/48a195d8.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/4be590e0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/4be590e0.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/4c3982f2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/4c3982f2.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/5046c355.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5046c355.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/52b525c7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/52b525c7.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/53a1b57a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/53a1b57a.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/583d0756.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/583d0756.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/5a3f0ff8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a3f0ff8.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/5acf816d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5acf816d.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/5f47b495.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5f47b495.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/5f9a69fa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5f9a69fa.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/5fdd185d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5fdd185d.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/60afe812.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/60afe812.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/6187b673.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6187b673.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/63a2c897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/63a2c897.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/69105f4f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/69105f4f.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/6b03dec0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6b03dec0.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/6f7454b3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6f7454b3.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/75680d2e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/75680d2e.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/76579174.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/76579174.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/7892ad52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7892ad52.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/7a7c655d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a7c655d.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/7a819ef2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a819ef2.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/81b9768f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/81b9768f.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/82223c44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/82223c44.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/83e9984f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/83e9984f.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/85cde254.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/85cde254.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/86212b19.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/86212b19.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/869fbf79.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/869fbf79.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/8794b4e3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/8794b4e3.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/882de061.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/882de061.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/88950faa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/88950faa.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/89c02a45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/89c02a45.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/8d6437c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/8d6437c3.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/9282e51c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9282e51c.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/9339512a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9339512a.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/93851c9e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/93851c9e.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/9479c8c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9479c8c3.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/9576d26b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9576d26b.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/9591a472.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9591a472.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/95aff9e3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/95aff9e3.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/9685a493.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9685a493.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/985c1f52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/985c1f52.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/99e1b953.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/99e1b953.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/9aef356c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9aef356c.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/9d6523ce.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9d6523ce.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/a2c66da8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a2c66da8.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/a3896b44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a3896b44.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/a716d4ed.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a716d4ed.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/a81e292b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a81e292b.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/a9d40e02.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a9d40e02.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/ab5346f4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab5346f4.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/ab59055e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab59055e.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/b0ed035a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0ed035a.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/b0f3e76e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0f3e76e.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/b30d5fda.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b30d5fda.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/b3fb433b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b3fb433b.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/b74d2bd5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b74d2bd5.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/b7db1890.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b7db1890.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/b872f2b4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b872f2b4.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/b92fd57f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b92fd57f.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/b936d1c6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b936d1c6.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/bc3f2570.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bc3f2570.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/bd43e1dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bd43e1dd.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/bdacca6f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bdacca6f.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/bf64f35b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bf64f35b.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/c44cc0c0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c44cc0c0.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/c491639e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c491639e.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/c559d742.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c559d742.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/c7f1359b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c7f1359b.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/c90bc37d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c90bc37d.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/cb1c3204.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb1c3204.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/ccc52f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ccc52f49.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/cf701eeb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cf701eeb.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/d06393bb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d06393bb.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/d16a5865.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d16a5865.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/d16a5865.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d16a5865.1 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/d18e9066.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d18e9066.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/d39b0a2c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d39b0a2c.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/d41b5e2a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d41b5e2a.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/d4c339cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d4c339cb.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/d59297b8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d59297b8.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/d7746a63.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d7746a63.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/d96b65e2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d96b65e2.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/da7377f6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/da7377f6.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/dbc54cab.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbc54cab.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/dbff3a01.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbff3a01.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/dc99f41e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dc99f41e.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/dfc0fe80.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dfc0fe80.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/e13665f9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e13665f9.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/e442e424.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e442e424.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/e48193cf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e48193cf.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/e7c037b4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e7c037b4.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/e8651083.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e8651083.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/ed39abd0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ed39abd0.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/edcbddb5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/edcbddb5.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/ee532fd5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ee532fd5.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/f013ecaf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f013ecaf.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/f058632f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f058632f.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/f0cd152c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f0cd152c.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/f459871d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f459871d.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/f8fc53da.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f8fc53da.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/fb5fa911.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fb5fa911.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/fd08c599.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fd08c599.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts/fde84897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fde84897.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/111e6273.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/3ad48a91.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/c542733d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c542733d.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/f336e3d1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/f336e3d1.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/18dc3a8d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/18dc3a8d.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.1 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/2cbfcc3a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/2cbfcc3a.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/399e7759.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/b5805141.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b5805141.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/smartpa_param/AW_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_DSP.bin \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf.txt \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/swnr_config_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/swnr_config_0.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/swnr_config_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/swnr_config_1.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/thermal/disable_skin_control.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_skin_control.conf \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/thermal/disable_thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal.conf \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/thermal/disable_thermal_temp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal_temp.conf \
@@ -338,7 +1485,16 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/thermal/thermal_policy_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_08.conf \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/thermal/thermal_policy_09.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_09.conf \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/thermal/thermal_policy_10.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_10.conf \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/ueventd.rc \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/usb_audio_accessory_only_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_accessory_only_policy_configuration.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/wifi/nvram/wfnv_desc_data_soc70.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram/wfnv_desc_data_soc70.bin \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/wifi/nvram/wfnv_desc_map_soc70.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram/wfnv_desc_map_soc70.bin \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
@@ -384,11 +1540,29 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib/hw/change_node.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/change_node.default.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib/hw/gesturewake.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gesturewake.default.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib/hw/tinylcd.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/tinylcd.default.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libGsFace_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGsFace_ca.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_cust.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaispq.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera2ndk_vendor.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libcv_faceid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcv_faceid.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libstfaceunlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstfaceunlock.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libvividhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvividhdr.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib/libwifinvramdata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifinvramdata.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/APUWareApusysAidlServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareApusysAidlServer.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/APUWareUtilsAidlServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsAidlServer.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio-impl-mediatek.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/libEGL_angle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_angle.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/libGLESv1_CM_angle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_angle.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/libGLESv2_angle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_angle.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_data.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_gift.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_qt.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/mt6878/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/mt6878/libGLES_mali.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/hw/android.hardware.audio@7.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.1-impl-mediatek.so \
@@ -435,20 +1609,42 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/lib3a.ae.pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.pipe.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/lib3a.custom.shading.flow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.custom.shading.flow.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libBasicModule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBasicModule.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libGsFace_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGsFace_ca.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libMtkSpeechEnh_swb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh_swb.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libVkLayer_mtk_rt_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_mtk_rt_sdk.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/lib_power_applist.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_power_applist.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaaa_aaautil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_aaautil.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaaa_afassist_V2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_afassist_V2.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaaa_afassistctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_afassistctrl.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaaa_gma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_gma.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_cust.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_key.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaal_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_sec.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadpcmdec_mtk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaibld.nn6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibld.nn6.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaimemc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaimemc.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaispq.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libappgamepq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappgamepq.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw_batch.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libarmnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libarmnn_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarmnn_ndk.mtk.vndk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_core.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mapi.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mdmi.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaudio_param_parser-vnd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_param_parser-vnd.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaudiocompensationfilter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilter_vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaudiocompensationfilterc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiocompensationfilterc.so \
@@ -461,6 +1657,8 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaudiosmartpamtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiosmartpamtk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libawinicsmartpaparse.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libawinicsmartpaparse.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libbluetooth_audio_session_aidl_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_aidl_mtk.so \
@@ -470,6 +1668,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcam.hal3a.custom.ae.HDRStateEvaluator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.custom.ae.HDRStateEvaluator.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcam.zoomoverridemgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.zoomoverridemgr.so \
@@ -482,33 +1681,57 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.utility.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcamalgo.vsdofUtil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.vsdofUtil.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcamalgo.warp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.warp.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapctrl.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcmdl_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl_ndk.mtk.vndk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_fsr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_fsr.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_c2store.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_vdec.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_venc.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_soft_mtk_alacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_alacdec.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_soft_mtk_imaadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_imaadpcmdec.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_soft_mtk_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_mp3dec.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_msadpcmdec.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_vpp_AIMEMC_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_AIMEMC_plugin.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_vpp_AISR_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_AISR_plugin.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_vpp_fa_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_fa_plugin.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_vpp_mi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_mi_plugin.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_qt_plugin.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_rs_plugin.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomposer_ext.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcv_faceid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcv_faceid.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libdlrmsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlrmsc.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libdre.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdre.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdynamiclog.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libfeature.hdr10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.hdr10.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libfeaturepolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeaturepolicy.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfft_vendor.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfgauge_gm30.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatter.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libfprint-x64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfprint-x64.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpud.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_metadata.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libgwsdv2-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgwsdv2-ril.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libgwsdv3-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgwsdv3-ril.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_gp_client.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgz_uree.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrvideo.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libheichal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libheichal.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libhevce_sb.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhevce_sb.ca7.android.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanager.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libhfmanagerwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanagerwrapper.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libicd_decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libicd_decoder.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifcutils_mtk.so \
@@ -520,11 +1743,17 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha-oal_vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha_vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libkeymint_tool.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymint_tool.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libkphhelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkphhelper.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libkphproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkphproxy.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmprofile.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnetlink_v104.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmp3dec_mtk.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsbc_mtk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtk_bsg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_bsg.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkcam_custom.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_custom.utils.so \
@@ -540,22 +1769,70 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkconfigutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkconfigutils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcutils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkgpuserv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkgpuserv.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkgpuservsdk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkgpuservsdk_vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkhardware_legacy.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkisp_metadata_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkisp_metadata_v2.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkisp_metadata_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkisp_metadata_v3.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtklimiter_vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkmipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkmipc-ril.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtknetcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetcap.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetutils.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkperf_client_vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkproperty.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrillog.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkrilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrilutils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkshifter_vendor.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkspparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkspparser.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkspparser_swb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkspparser_swb.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtksysutils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_cic_ci_compiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_cic_ci_compiler.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_cic_ci_compiler_25.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_cic_ci_compiler_25.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_clc_14_cl_compiler_25.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_clc_14_cl_compiler_25.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_clc_14_mvpu_debuginfo_25.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_clc_14_mvpu_debuginfo_25.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_clc_14_mvpu_elf_25.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_clc_14_mvpu_elf_25.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_clc_14_mvpu_isa_25.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_clc_14_mvpu_isa_25.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_clc_14_mvpu_utility_25.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_clc_14_mvpu_utility_25.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_clc_cl_compiler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_clc_cl_compiler.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_clc_mvpu_debuginfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_clc_mvpu_debuginfo.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_clc_mvpu_elf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_clc_mvpu_elf.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_clc_mvpu_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_clc_mvpu_utility.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_clc_vpu_isa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_clc_vpu_isa.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_config.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_config.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_engine.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_engine_25.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_engine_25.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_engine_25_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_engine_25_pub.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_engine_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_engine_pub.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_pattern.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_pattern.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_pattern_25.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_pattern_25.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_pattern_25_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_pattern_25_pub.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_pattern_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_pattern_pub.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_runtime.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_runtime_25.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_runtime_25.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_runtime_25_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_runtime_25_pub.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_runtime_builtin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_runtime_builtin.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_runtime_builtin_25.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_runtime_builtin_25.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_runtime_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_runtime_pub.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpu_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpu_wrapper.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpuop25_mtk_cv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpuop25_mtk_cv.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpuop25_mtk_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpuop25_mtk_nn.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpuop_mtk_cv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpuop_mtk_cv.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libmvpuop_mtk_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmvpuop_mtk_nn.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libn3d_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libn3d_tuning.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_graph_delegate.mtk.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnir_neon_driver_ndk.mtk.vndk.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libnpagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpagent.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libnpagent_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpagent_server.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpixsmart_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixsmart_hdr.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpixsmart_ldc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixsmart_ldc.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpixsmart_mf_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixsmart_mf_base.so \
@@ -563,6 +1840,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpixsmart_ns.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixsmart_ns.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpixsmart_vs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixsmart_vs.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpixsmart_vs_pose.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixsmart_vs_pose.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpl.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpowerhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal.so \
@@ -574,36 +1852,72 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpqxmlflagparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqxmlflagparser.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libpqxmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqxmlparser.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcs_interface.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcs_volte_core.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_wrapper.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libsilkybrightnesscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsilkybrightnesscore.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libstfaceunlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstfaceunlock.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libstfactory-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstfactory-vendor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorage_otp.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libsxs_exp_ctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsxs_exp_ctrl.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libsxs_ultrawideview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsxs_ultrawideview.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthha.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mapi_v3.0.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_mdmi_v2.8.2.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libtranslator_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranslator_utils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libtrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrm.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libultrahdr_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libultrahdr_mtk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/liburee_meta_drmkeyinstall.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liburee_meta_drmkeyinstall.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_oal.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodecdrv_header_stub.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libviamipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviamipc-ril.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvividhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvividhdr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_aa.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_dd.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_ha.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_ap_test_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_hh.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_nn.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_ap_test_trip_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_trip_aa.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_ap_test_trip_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_trip_dd.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_ap_test_trip_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_trip_ha.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_ap_test_trip_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_trip_hh.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_ap_test_trip_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_trip_nn.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvow_comp_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_comp_test.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwfov_mesh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfov_mesh.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwfov_portrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfov_portrait.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwifical.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifical.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwifinvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifinvram.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwifinvramdata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifinvramdata.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/libwv_trustkernel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwv_trustkernel.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/arm.graphics-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/arm.graphics-V4-ndk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/arm.mali.platform-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/arm.mali.platform-V2-ndk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/imx989_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/imx989_mipi_raw_IdxMgr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/imx989_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/imx989_mipi_raw_tuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/imx989cts_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/imx989cts_mipi_raw_IdxMgr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/imx989cts_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/imx989cts_mipi_raw_tuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/lib3a.ae.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/lib3a.ae.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/lib3a.ae.stat.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/lib3a.af.assist.models1d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/lib3a.af.assist.models1d.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/lib3a.af.assist.models2d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/lib3a.af.assist.models2d.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/lib3a.af.assist.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/lib3a.af.assist.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/lib3a.af.assist.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/lib3a.af.assist.utils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/lib3a.af.core.so \
@@ -635,20 +1949,33 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaaa_ltmx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaaa_ltmx.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaaa_tnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaaa_tnc.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaaa_toneutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaaa_toneutil.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaal_cust_func.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaal_cust_func.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaalservice.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libacdk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiawb_fs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiawb_fs.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiawb_fs_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiawb_fs_model.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiawb_moon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiawb_moon.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiawb_moon_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiawb_moon_model.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiawb_p1ggm.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiawb_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiawb_sun.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiawb_sun_model.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaibc_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaibc_tuning.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaibc_tuning_p2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaibc_tuning_p2.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaibc_tuning_p3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaibc_tuning_p3.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaibc_tuning_p4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaibc_tuning_p4.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaicapturecore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaicapturecore.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaidepth_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaidepth_tuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiseg_cache.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiseg_cache.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiseg_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiseg_model.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiseg_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiseg_p1ggm.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiseg_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiseg_sun.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libaiselector.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libalgo.aosp.log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libalgo.aosp.log.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libapiwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libapiwrapper.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libapudcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libapudcutils.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libarm_egl_properties_sysprop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libarm_egl_properties_sysprop.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libarm_gralloc_properties_sysprop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libarm_gralloc_properties_sysprop.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libarm_mali_config_sysprops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libarm_mali_config_sysprops.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcam.3a_isp.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcam.3a_isp.utils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcam.afmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcam.afmgr.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcam.chdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcam.chdr.so \
@@ -656,6 +1983,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcam.fw_me_tcy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcam.fw_me_tcy.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcam.hal3a.3aProvider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcam.hal3a.3aProvider.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcam.hal3a.afassitmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcam.hal3a.afassitmgr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcam.hal3a.cctsvr.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcam.hal3a.cctsvr.v4l2.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcam.hal3a.ctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcam.hal3a.ctrl.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcam.hal3a.custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcam.hal3a.custom.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcam.hal3a.guard.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcam.hal3a.guard.so \
@@ -742,6 +2070,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcameracustom.plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcameracustom.plugin.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcameracustom.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libcameracustom_camera_db_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libcameracustom_camera_db_ext.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libccd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libccd.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libdpframework.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libeffecthal.base.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libfacerelight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libfacerelight.so \
@@ -761,13 +2090,30 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libfeature_vrp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libfeature_vrp.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libfeatureiodrv_mem.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libfeaturepolicy_dbhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libfeaturepolicy_dbhandler.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libgpudataproducer.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libhdr10plusvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libhdr10plusvideo.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgstream-custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgstream-custom.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgstream-drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgstream-drv.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgstream-guard.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgstream-guard.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_adl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_adl.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_cmt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_cmt.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_custom.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_daemon.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_dip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_dip.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_drvcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_drvcommon.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_gce.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_gce.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_main.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_main.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_me.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_me.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_pqdip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_pqdip.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_sensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_sensor.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_system.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_taskhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_taskhandler.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_tdrhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_tdrhal.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_tile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_tile.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_traw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_traw.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_utils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_v4l2.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libimgsys_wpe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libimgsys_wpe.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libispfeature_mtkcam.v4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libispfeature_mtkcam.v4l2.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libispinterpreter_mtkcam.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libispinterpreter_mtkcam.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/liblpnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/liblpnr.so \
@@ -786,6 +2132,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam.featurepipe.streaming.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam.featurepipe.streaming.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam.featurepipe.vsdof.wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam.featurepipe.vsdof.wrapper.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam.logicalcaminfoprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam.logicalcaminfoprovider.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam.logicalmodule.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam.ndd.limit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam.ndd.limit.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_aicolor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_aicolor.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_aie.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_aie.so \
@@ -863,6 +2210,8 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_metaconv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_metaconv.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_metadata.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_metastore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_metastore.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_modulefactory_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_modulefactory_custom.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_modulefactory_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_modulefactory_utils.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_modulehelper.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_p1node.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_p1node.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_packutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_packutils.so \
@@ -885,6 +2234,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_request_requlator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_request_requlator.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_resourcedecision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_resourcedecision.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_resourcedecision_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_resourcedecision_custom.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_salmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_salmgr.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_sensorcontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_sensorcontrol.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_simager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_simager.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcam_smvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcam_smvr.so \
@@ -904,22 +2254,36 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkcm_ipc_dummy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkcm_ipc_dummy.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libmtkltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libmtkltm.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libneuralnetworks_sl_driver_mtk_prebuilt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libneuralnetworks_sl_driver_mtk_prebuilt.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libneuron_adapter_mgvi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libneuron_adapter_mgvi.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libneuron_runtime.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libneuron_runtime.7.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libneuron_runtime.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libneuron_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libneuron_wrapper.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libnir_neon_driver.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libpda_usdriver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libpda_usdriver.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libpq_cust_base.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libpq_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libpq_sec.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libpqconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libpqconfig.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libpqparamparser.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/libvainr_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/libvainr_model.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/mtk000_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/mtk000_mipi_raw_IdxMgr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/mtk000_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/mtk000_mipi_raw_tuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/ov32b40_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/ov32b40_mipi_raw_IdxMgr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/ov32b40_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/ov32b40_mipi_raw_tuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/ov64b_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/ov64b_mipi_raw_IdxMgr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/ov64b_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/ov64b_mipi_raw_tuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/s5kgn1sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/s5kgn1sp_mipi_raw_IdxMgr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/s5kgn1sp_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/s5kgn1sp_mipi_raw_tuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/s5kjn1_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/s5kjn1_mipi_raw_IdxMgr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/s5kjn1_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/s5kjn1_mipi_raw_tuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/s5kjn1cts_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/s5kjn1cts_mipi_raw_IdxMgr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/s5kjn1cts_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/s5kjn1cts_mipi_raw_tuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/s5kjn1main2_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/s5kjn1main2_mipi_raw_IdxMgr.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mt6878/s5kjn1main2_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6878/s5kjn1main2_mipi_raw_tuning.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/mtk_lbs_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtk_lbs_service-impl.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/s5kgm2sp_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5kgm2sp_mipi_raw_IdxMgr.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/soundfx/libspatializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libspatializer.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/vendor.mediatek.framework.mtksf_ext-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.framework.mtksf_ext-V2-ndk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/vendor.mediatek.hardware.aee-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.aee-V1-ndk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/vendor.mediatek.hardware.aee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.aee@1.0.so \
@@ -1238,6 +2602,7 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor_dlkm/lib/modules/yft_tiny2c_usb.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/yft_tiny2c_usb.ko
 
 PRODUCT_PACKAGES += \
+    com.google.android.widevine.nonupdatable \
     M170infisens \
     YftBarometer \
     YftMiniScreen \
@@ -1293,8 +2658,6 @@ PRODUCT_PACKAGES += \
     mtkpower_applist-mtk-default.xml \
     nfc-service-st.xml \
     power-mediatek.xml \
-    sensorcali_manifest_v1.xml \
-    sensorcali_manifest_v2.xml \
     thermal-mediatek.xml \
     vibrator-mtk-default.xml
 

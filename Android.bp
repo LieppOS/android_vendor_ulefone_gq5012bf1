@@ -8,6 +8,14 @@ soong_namespace {
     ],
 }
 
+prebuilt_apex {
+    name: "com.google.android.widevine.nonupdatable",
+    owner: "ulefone",
+    src: "proprietary/vendor/apex/com.google.android.widevine.nonupdatable.apex",
+    filename: "com.google.android.widevine.nonupdatable.apex",
+    soc_specific: true,
+}
+
 android_app_import {
     name: "M170infisens",
     owner: "ulefone",
@@ -536,24 +544,6 @@ prebuilt_etc_xml {
     name: "power-mediatek.xml",
     owner: "ulefone",
     src: "proprietary/vendor/etc/vintf/manifest/power-mediatek.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "sensorcali_manifest_v1.xml",
-    owner: "ulefone",
-    src: "proprietary/vendor/etc/vintf/manifest/sensorcali_manifest_v1.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "sensorcali_manifest_v2.xml",
-    owner: "ulefone",
-    src: "proprietary/vendor/etc/vintf/manifest/sensorcali_manifest_v2.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,

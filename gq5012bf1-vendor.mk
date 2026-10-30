@@ -407,7 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/em_hal_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hal_user.rc \
-    vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/fingerprint-example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-example.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpsgo.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/ulefone/gq5012bf1/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
@@ -1564,6 +1563,11 @@ PRODUCT_COPY_FILES += \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_qt.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/egl/mt6878/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/mt6878/libGLES_mali.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/fingerprint/android.hardware.biometrics.common-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fingerprint/android.hardware.biometrics.common-V3-ndk.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/fingerprint/android.hardware.biometrics.common.thread.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fingerprint/android.hardware.biometrics.common.thread.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/fingerprint/android.hardware.biometrics.common.util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fingerprint/android.hardware.biometrics.common.util.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/fingerprint/android.hardware.biometrics.fingerprint-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fingerprint/android.hardware.biometrics.fingerprint-V3-ndk.so \
+    vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/fingerprint/android.hardware.keymaster-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fingerprint/android.hardware.keymaster-V4-ndk.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/hw/android.hardware.audio@7.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.1-impl-mediatek.so \
     vendor/ulefone/gq5012bf1/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so \
